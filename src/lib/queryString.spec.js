@@ -6,13 +6,11 @@ describe('Object to query string', () => {
       name: 'Antonio',
       profession: 'developer'
     }
-    
-    expect(queryString(obj)).toBe(
-      'name=Antonio&profession=developer'
-    )
+
+    expect(queryString(obj)).toBe('name=Antonio&profession=developer')
   })
 })
 
 // describe('Query string to object', () => {
-  
+
 // })
